@@ -21,5 +21,19 @@ The genotypes are coded as the combination of two nucleotides, it is up to you t
 
 ## Specific Aims
 
+### 1. Identify the population structure 
+
+Use any unsupervised learning algorithm of your choice to identify the hidden cluster structure in the data. For this analysis, use only 900 samples and exclude the 27 samples that are listed in ```clustering.blacklist``` file. Provide the visualization of the cluster structure.
+
+### 2. Determine the number of clusters (K)
+
+Justify your choice of  number of clusters (K) and assign the 900 individuals into the corresponding clusters. Note that K should be no smaller than 3 and no greater than 10. 
+
+
+### 3. Assign the 27 individuals into the inferred clusters
+
+Use your method of choice to assign the 27 blacklisted individuals for clustering back into the inferred clusters.
+
+
 
 
